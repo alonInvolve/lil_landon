@@ -7,7 +7,7 @@ AWS.config.update({
 var dynamodb = new AWS.DynamoDB();
 
 var params = {
-  TableName: "Accesibilities",
+  TableName: "Accessibilities",
   KeySchema: [
     // Partition Key
     { AttributeName: "name", KeyType: "HASH" },

@@ -1,5 +1,5 @@
 import React from 'react';
-import accesabilityData from './data/accesability.json'
+import accesabilityData from './data/accessibilities.json'
 import servicesData from './data/services.json';
 
 const HotelInfo = () => {
